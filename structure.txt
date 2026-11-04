@@ -1,0 +1,28 @@
+1. Features
+Add and manage plant records.
+Store plant name, type, location, and care frequency.
+Schedule watering and fertilizing.
+Record completed care activities.
+View care tasks due today.
+View overdue care tasks.
+Search plants by name.
+Generate plant care reports.
+  
+2. Project structure
+
+Plant_Care_Scheduler/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── plant_manager.py
+├── care_manager.py
+├── report_manager.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── plants.json
+    └── care_records.json
